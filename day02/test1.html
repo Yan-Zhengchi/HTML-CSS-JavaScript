@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table  
+    style="
+    text-align: center;
+    width: 60%;
+    border:1px;
+    background-color:aquamarine;
+    color: darkslateblue;" 
+    cellspacing = "2" 
+    cellpadding = "3" 
+    border="1px">
+        <tr>
+            <td>姓名</td>
+            <td><input type="text"></td>
+            <td>性别</td>
+            <td><select name="sax" id="sax1">
+                <option>--选择性别--</option>
+                <option value="men">男</option>
+                <option value="women">女</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>手机号码</td>
+            <td><input type="text"></td>
+            <td>电子邮箱</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>教育程度</td>
+            <td><select name="edu" id="edu1">
+                <option value="小学">小学</option>
+                <option value="中学">中学</option>
+                <option value="大学">大学</option>
+            </select></td>
+            <td>工作职位</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>工作城市</td>
+            <td><select name="city" id="city1">
+                <option>--选择城市--</option>
+                <option value="南京">南京</option>
+                <option value="上海">上海</option>
+                <option value="北京">北京</option>
+            </select></td>
+            <td>期望工资</td>
+            <td><select name="salary" id="s1">
+                <option >--选择区间--</option>
+                <option value="5000">5000</option>
+                <option value="10000">10000</option>
+                <option value="15000">15000</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>自我介绍</td>
+            <td colspan="3"><textarea name="jieshao" cols = 100% ></textarea></td>
+            
+        </tr>
+        <tr>
+            <td>特长</td>
+            <td colspan="3"><textarea name="techang" cols = 100%></textarea></td>
+            
+        </tr>
+        <tr>
+            <td>地址</td>
+            <td colspan="3"><textarea name="add" cols = 100%></textarea></td>
+            
+        </tr>
+    </table>
+</body>
+</html>

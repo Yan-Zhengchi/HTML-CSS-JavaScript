@@ -1,0 +1,12 @@
+li                                    1
+ul li                                 2
+ul ol+li                            3
+ul ol+li                            3
+h1 + *[REL=up]                11      
+ul ol li.red                        13
+li.red.level                        21
+a1.a2.a3.a4.a5.a6.a7.a8.a9.a10.a11          11
+#x34y                               100
+li:first-child h2 .title             22
+#nav .selected > a:hover      120      
+html body #nav .selected > a:hover  122  

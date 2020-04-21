@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header-div{
+    width: 100%;
+    height: 64px;
+    background-color: #24292E;
+    position: relative;
+}
+.header-image{
+    /*
+    头部logo
+     */
+    float: left;
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.options{
+    /*
+    头部右侧选项
+     */
+    float: right;
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.search{
+    /*
+    头部的input标签所在的div
+     */
+    width: 275px;
+    float:left;
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.input{
+    /*
+    头部的input标签
+     */
+    width: 273px;
+    height: 28px;
+    background-color: #3F4448;
+    color: #53575B;
+    border-radius: 2px 2px 2px 2px;
+    border: none;
+    padding: 0 8px;
+
+}
+.header-link{
+    /*
+    头部div中所有a标签所在的div
+     */
+    float:left;
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+    margin-left: 30px;
+}
+.header-link>a{
+    /*
+    头部div中的所有a标签
+     */
+    margin: 0 16px 0 0;
+    text-decoration: none;
+    font-size: 13px;
+    color:white;
+    font-weight: 700;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.body{
+    /*
+    主题部分div
+     */
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    /*
+    左侧div
+     */
+    float: left;
+    position: relative;
+    height:1030px;
+    width: 273px;
+    border-right: rgb(225, 228, 232) solid 1px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+.repositoryTitle{
+    /*
+    创建仓库的标题
+     */
+    line-height: 21px;
+    margin: 30px 0 4px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.repositoryInfo{
+    /*
+    创建仓库的信息
+     */
+    line-height: 21px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.btn-create-repository{
+    /*
+    创建仓库的按钮
+     */
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color:rgb(40, 167, 69);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 6px ;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    cursor:pointer;
+}
+.import-repository{
+    /*
+    导入仓库的按钮
+     */
+    color:rgb(3, 102, 214);
+    font-size:14px;
+    display: block;
+    text-decoration: none;
+    margin:10px 0 16px 8px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    cursor:pointer;
+}
+.organizationInfo{
+    /*
+    创建organization的信息
+     */
+    line-height: 21px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.organizationTitle{
+    /*
+    创建organization的标题
+     */
+    line-height: 21px;
+    margin: 30px 0 4px ;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.btn-create-organization{
+    /*
+    创建organization的按钮
+     */
+    font-weight: 600;
+    line-height: 20px;
+    background-color:white;
+    color: dodgerblue;
+    border-radius: 3px;
+    border: 1px solid #D1D2D3;
+    margin: 6px ;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    cursor:pointer;
+}
+.right{
+    background-color:#F7F7F7;
+    float: right;
+    position: relative;
+    height:1030px;
+    width: 310px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.right-text-title{
+    margin: 20px 0 0 0;
+    font-size:14px;
+    font-weight:600;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.right-text-child-title{
+    display: block;
+    margin: 20px 0 0 0;
+    font-size:12px;
+    font-weight:600;
+    line-height:18px;
+    text-decoration: none;
+    color: black;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.right-text-child-title:hover{
+    color: dodgerblue;
+}
+.right-text1{
+    font-size:11px;
+    font-weight:500;
+    line-height:18px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.more{
+    font-size:11px;
+    font-weight:500;
+    line-height:18px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.more:hover{
+    color: dodgerblue;
+}
+.mid{
+
+    padding:20px 0 0 20px;
+    height:1000px ;
+    width: 54%;
+    margin-left: 322px;
+    margin-right: 310px;
+    background-color:#F7F7F7;
+
+}
+.welcome{
+    text-align: center;
+    height: 380px;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 60%, #fff), linear-gradient(70deg, #dbedff 32%, #ebfff0);
+    border: rgb(209, 213, 218) 1px solid ;
+    border-radius: 3px 3px 3px 3px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.welcome-title{
+
+    padding-top: 100px;
+    font-size:30px;
+    font-weight:400;
+    line-height:45px;
+}
+.welcome-text{
+
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size:18px;
+    line-height:27px;
+
+}
+.welcome-text-div {
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.read-the-guide{
+    padding: 10px 50px;
+    color: white;
+    background-color:rgb(40, 167, 69);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 20px ;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    cursor:pointer;
+
+}
+.start-a-project{
+    padding: 10px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 3px;
+    margin: 20px ;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    border: 1px solid #D1D2D3;
+    background-color: white;
+    cursor:pointer;
+}
+.explore{
+    height: 250px;
+    background-color: white;
+    border: rgb(209, 213, 218) 1px solid ;
+    border-radius: 3px 3px 3px 3px;
+    padding: 40px 50px 0 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.explore-title{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size:24px;
+    font-weight:600;
+    line-height:30px;
+}
+.explore-text{
+    color:rgb(36, 41, 46);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size:16px;
+    line-height:24px;
+}
+.explore-btn{
+    padding: 10px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 3px;
+    margin: 20px ;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    border: 1px solid #D1D2D3;
+    background-color: white;
+    color: dodgerblue;
+    cursor:pointer;
+}
+.tips{
+    height: 100px;
+    margin-top: 20px;
+}
+.footer{
+    height: 170px;
+    position:relative;
+}
+.footer-options1{
+    position: absolute;
+    right: 330px;
+    display: inline-block;
+    height: 130px;
+    width: 60px;
+    margin-right: 40px;
+}
+.footer-options2{
+    position: absolute;
+    right: 240px;
+    display: inline-block;
+    height: 130px;
+    width: 60px;
+    margin-right: 40px;
+}
+.footer-options3{
+    position: absolute;
+    right: 150px;
+    display: inline-block;
+    height: 130px;
+    width: 60px;
+    margin-right: 40px;
+}
+.footer-options1>a{
+    color:rgb(88, 96, 105);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size:12px;
+    line-height:18px;
+    text-decoration-line:none;
+}
+.footer-options1>a:hover{
+    color: dodgerblue;
+}
+.footer-options2>a{
+    color:rgb(88, 96, 105);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size:12px;
+    line-height:18px;
+    text-decoration-line:none;
+}
+.footer-options2>a:hover{
+    color: dodgerblue;
+}
+.footer-options3>a{
+    color:rgb(88, 96, 105);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size:12px;
+    line-height:18px;
+    text-decoration-line:none;
+}
+.footer-options3>a:hover{
+    color: dodgerblue;
+}
